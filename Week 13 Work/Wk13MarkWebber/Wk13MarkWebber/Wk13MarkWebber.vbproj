@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3FD8AEC8-57DE-4694-9592-5A1AA4CAEC65}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Wk13MarkWebber.My.MyApplication</StartupObject>
+    <RootNamespace>Wk13MarkWebber</RootNamespace>
+    <AssemblyName>Wk13MarkWebber</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Wk13MarkWebber.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Wk13MarkWebber.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmQB8.Designer.vb">
+      <DependentUpon>FrmQB8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQB8.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQB6.Designer.vb">
+      <DependentUpon>FrmQB6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQB6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQA1i.Designer.vb">
+      <DependentUpon>FrmQA1i.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQA1i.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQA1ii.Designer.vb">
+      <DependentUpon>FrmQA1ii.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQA1ii.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQA2+3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQA2+3.Designer.vb">
+      <DependentUpon>FrmQA2+3.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQB1.Designer.vb">
+      <DependentUpon>FrmQB1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQB1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQB2.Designer.vb">
+      <DependentUpon>FrmQB2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQB2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQB3.Designer.vb">
+      <DependentUpon>FrmQB3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQB3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQB4+5.Designer.vb">
+      <DependentUpon>FrmQB4+5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQB4+5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQB7.Designer.vb">
+      <DependentUpon>FrmQB7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQB7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQC1.Designer.vb">
+      <DependentUpon>FrmQC1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQC1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQC2.Designer.vb">
+      <DependentUpon>FrmQC2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQC2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmQB8.resx">
+      <DependentUpon>FrmQB8.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQB6.resx">
+      <DependentUpon>FrmQB6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQA1i.resx">
+      <DependentUpon>FrmQA1i.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQA1ii.resx">
+      <DependentUpon>FrmQA1ii.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQA2+3.resx">
+      <DependentUpon>FrmQA2+3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQB1.resx">
+      <DependentUpon>FrmQB1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQB2.resx">
+      <DependentUpon>FrmQB2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQB3.resx">
+      <DependentUpon>FrmQB3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQB4+5.resx">
+      <DependentUpon>FrmQB4+5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQB7.resx">
+      <DependentUpon>FrmQB7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQC1.resx">
+      <DependentUpon>FrmQC1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQC2.resx">
+      <DependentUpon>FrmQC2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
