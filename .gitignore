@@ -16,6 +16,7 @@ local.properties
 .settings/
 .loadpath
 .7z
+Workdot7z/
 
 # External tool builders
 .externalToolBuilders/
